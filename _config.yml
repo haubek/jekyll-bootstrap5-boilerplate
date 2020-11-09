@@ -1,0 +1,18 @@
+# Build settings
+markdown: kramdown
+highlighter: rouge # or rouge or null
+environment: production
+exclude: [
+  ".DS_Store",
+  ".editorconfig",
+  ".gitignore",
+  "/assets",
+  "/node_modules",
+  "/src",
+  "Gemfile",
+  "Gemfile.lock",
+  "gulpfile.js",
+  "package.json",
+  "README.md",
+  "yarn.lock",
+]
